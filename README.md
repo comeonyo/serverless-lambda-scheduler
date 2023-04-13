@@ -29,6 +29,8 @@ functions:
 위에서 사용한 EventBridge Rules 말고 EventBridge Scheduler 서비스가 있지만, 현재는 serverless에서 지원하지 않는다.
 
 # Logs
+event 객체의 time은 UTC+0이다. Z meas zero.
+
 ## fire-every-minute
 ```
 2023-04-13T14:38:09.361Z	12ab4ed1-1234-1234-1234-a1234564499d	INFO	Your cron function "tick-tack" ran at Thu Apr 13 2023 14:38:09 GMT+0000 (Coordinated Universal Time)
