@@ -26,10 +26,11 @@ functions:
           schedule: cron(0/1 * * * ? *)
         
 ```
-위에서 사용한 EventBridge Rules 말고 EventBridge Scheduler 서비스가 있지만, 현재는 serverless에서 지원하지 않는다.
+위에서 사용한 EventBridge Rules 말고 EventBridge Scheduler 서비스가 있다.  
+하지만 현재 serverless에서 지원하지 않는다.
 
 # Logs
-event 객체의 time은 UTC+0이다. Z meas zero.
+event 객체의 time은 UTC+0이다. Z meas zero. 
 
 ## fire-every-minute
 ```
