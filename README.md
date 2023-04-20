@@ -30,7 +30,7 @@ functions:
 하지만 현재 serverless에서 지원하지 않는다.
 
 # Logs
-event 객체의 time은 UTC+0이다. Z meas zero. 
+event 객체의 time은 UTC+0이다. 
 
 ## fire-every-minute
 ```
