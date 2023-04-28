@@ -29,7 +29,7 @@ functions:
 위에서 사용한 EventBridge Rules 말고 EventBridge Scheduler 서비스가 있다.  
 하지만 현재 serverless에서 지원하지 않는다.
 
-# Logs
+# Lambda 실행 로그 
 EventBridge Rules가 전달하는 event 객체의 time은 UTC+0이다. 
 
 ## fire-every-minute
