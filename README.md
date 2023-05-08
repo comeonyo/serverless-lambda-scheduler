@@ -30,7 +30,7 @@ functions:
 하지만 현재 serverless에서 지원하지 않는다.
 
 # Lambda 실행 로그 
-EventBridge Rules가 전달하는 event 객체의 time은 UTC+0이다. 
+EventBridge Rules가 전달하는 event 객체의 time은 UTC+0이다. 테스트.
 
 ## fire-every-minute
 ```
